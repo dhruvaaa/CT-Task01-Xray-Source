@@ -21,7 +21,7 @@ X-Ray Source Simulation Module
   - photon_positions: Array of shape (N, 3)  Starting $(x, y, z)$ coordinates jittered across the focal spot area.
   - photon_directions: Array of shape (N, 3)  Unit vectors pointing within the cone toward the detector.
   - photon_energies: Array of shape (N,)  Sampled energy values (keV) matching your filtered spectrum.
-  - photon_weight (or total intensity): Scalar value representing physical flux, calculated as $\frac{\text{mA} \times \text{exposure\_time}}{N}$.
+  - photon_weight (or total intensity): Scalar value representing physical flux, calculated as $\frac{\text{mA} \times \text{exposureTime}}{N}$.
 
 ### 3. Current Progress
 - X-ray spectrum calculation: Generates the filtered Kramers Bremsstrahlung energy curve.
