@@ -5,12 +5,12 @@ X-Ray Source Simulation Module
 
 ### 2. Inputs & Outputs
 - **Inputs:**
-  - From the Detector / Geometry Team (Per Projection)
+  - ### From the Detector / Geometry Team (Per Projection)
   - source_position: Target center coordinates (x, y, z) in mm.
   - detector_position: Detector center coordinates $(x, y, z)$ in mm.
   - cone_angle: Beam opening angle (radians or degrees) toward the detector.
 
-  - Protocol Settings (User-Controlled)
+  - ### Protocol Settings (User-Controlled)
   - kVp: Tube potential (defines max photon energy and spectrum shape).
   - mA: Tube current (scales photon intensity/weight).
   - exposure_time: Exposure duration per view (scales photon intensity/weight).
