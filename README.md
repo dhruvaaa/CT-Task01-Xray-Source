@@ -5,17 +5,17 @@ X-Ray Source Simulation Module
 
 ### 2. Inputs & Outputs
 - **Inputs:**
-  From the Detector / Geometry Team (Per Projection)
-  source_position: Target center coordinates (x, y, z) in mm.
-  detector_position: Detector center coordinates $(x, y, z)$ in mm.
-  cone_angle: Beam opening angle (radians or degrees) toward the detector.
+  - From the Detector / Geometry Team (Per Projection)
+  - source_position: Target center coordinates (x, y, z) in mm.
+  - detector_position: Detector center coordinates $(x, y, z)$ in mm.
+  - cone_angle: Beam opening angle (radians or degrees) toward the detector.
 
-  Protocol Settings (User-Controlled)
-  kVp: Tube potential (defines max photon energy and spectrum shape).
-  mA: Tube current (scales photon intensity/weight).
-  exposure_time: Exposure duration per view (scales photon intensity/weight).
-  focal_spot_size: Target dimensions $(dx, dy)$ (e.g., $0.6\text{ mm}$ or $1.2\text{ mm}$).
-  N_photons: Number of simulated rays to trace per view (e.g., $10^5$).
+  - Protocol Settings (User-Controlled)
+  - kVp: Tube potential (defines max photon energy and spectrum shape).
+  - mA: Tube current (scales photon intensity/weight).
+  - exposure_time: Exposure duration per view (scales photon intensity/weight).
+  - focal_spot_size: Target dimensions $(dx, dy)$ (e.g., $0.6\text{ mm}$ or $1.2\text{ mm}$).
+  - N_photons: Number of simulated rays to trace per view (e.g., $10^5$).
   
 - **Outputs:**
   photon_positions: Array of shape (N, 3) — Starting $(x, y, z)$ coordinates jittered across the focal spot area.
