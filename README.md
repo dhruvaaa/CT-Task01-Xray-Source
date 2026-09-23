@@ -35,4 +35,4 @@ X-Ray Source Simulation Module
 
 
 ### 5. Code File
-Our main python code can be found in this folder 
+Our main python code can be found Codes folder under main 
